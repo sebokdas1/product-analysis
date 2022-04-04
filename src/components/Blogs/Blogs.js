@@ -48,6 +48,7 @@ const Blogs = () => {
                     <td>Inline</td>
                     <td>Inline, Inline-Block and Block</td>
                 </tr>
+
             </table>
         </div>
     );

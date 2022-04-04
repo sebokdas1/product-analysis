@@ -5,7 +5,7 @@
     text-align: center;
 }
 
-.navlink a {
+.normal-link {
     text-decoration: none;
     margin: 28px;
     padding: 5px;
@@ -15,10 +15,20 @@
     font-size: 20px;
 }
 
-.navlink a:hover {
+.active-link {
+    text-decoration: none;
+    margin: 28px;
+    padding: 5px;
+    color: rgb(233, 230, 230);
+    font-weight: 700;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: rgba(255, 166, 0, 0.849);
+}
+
+.normal-link:hover {
     background-color: orange;
     color: rgb(223, 220, 220);
-    text-decoration: underline;
 }
 
 @media only screen and (max-width: 500px) {
