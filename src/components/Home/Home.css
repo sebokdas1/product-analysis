@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap');
 
 .home {
     margin-top: 0;
@@ -25,6 +26,12 @@
     font-family: 'Beau Rivage', cursive;
 }
 
+.heading h4 {
+    line-height: 5px;
+    font-size: 24px;
+    font-family: 'Grape Nuts', cursive;
+}
+
 .heading p {
     text-align: justify;
 }
@@ -45,8 +52,9 @@
 }
 
 .home-review-section {
-    border: 1px solid lightblue;
+    border: 1px solid rgba(173, 216, 230, 0.164);
     padding-left: 8px;
+    padding-top: 5px;
 }
 
 /* .home-review-section img,
@@ -58,13 +66,56 @@ p {
 .home-review-section img {
     width: 70px;
     border-radius: 50%;
+    margin: auto;
+}
+
+.show-more {
+    margin-top: 5px;
+    padding: 5px;
+    border: 1px solid rgba(192, 192, 192, 0.692);
+    background-color: goldenrod;
+    text-decoration: none;
+    color: azure;
+
+}
+
+/* .all-review-container a {
+    text-align: center;
+} */
+.all-review-container {
+    padding-bottom: 20px;
+}
+
+.all-review-container h3 {
+    text-align: center;
+    font-size: 24px;
+}
+
+.link-review {
     text-align: center;
 }
 
+.link-review a {
+    text-decoration: none;
+    padding: 5px 15px;
+    background-color: blue;
+    color: lightblue;
+    font-weight: 500;
+}
+
+.link-review a:hover {
+    background-color: rgba(255, 166, 0, 0.801);
+    color: lightcyan;
+    border-radius: 5px;
+}
 
 
 @media only screen and (max-width: 500px) {
     .home-container {
+        grid-template-columns: 1fr;
+    }
+
+    .review-section {
         grid-template-columns: 1fr;
     }
 }

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap');
 
 .data-error {
     display: flex;
@@ -10,7 +10,7 @@
 }
 
 .not-found h2 {
-    font-family: 'Rubik Glitch', cursive;
+    font-family: 'Rubik Wet Paint', cursive;
     font-size: 28px;
 }
 

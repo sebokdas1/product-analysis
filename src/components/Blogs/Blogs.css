@@ -1,0 +1,31 @@
+.blogs-container {
+    padding: 0 10px;
+}
+
+.difference-table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.difference-table td,
+.difference-table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.difference-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.difference-table tr:hover {
+    background-color: #ddd;
+}
+
+.difference-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+}

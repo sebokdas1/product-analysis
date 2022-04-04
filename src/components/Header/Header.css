@@ -20,3 +20,9 @@
     color: rgb(223, 220, 220);
     text-decoration: underline;
 }
+
+@media only screen and (max-width: 500px) {
+    .navlink a {
+        display: block;
+    }
+}
