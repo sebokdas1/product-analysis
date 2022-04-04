@@ -1,7 +1,14 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './Home.css'
 
 const Home = () => {
+    const [reviews, setReviews] = useState([]);
+    useEffect(() => {
+        fetch('review.json')
+            .then(res => res.json())
+            .then(data => setReviews(data))
+
+    }, [])
     return (
         <div className='home'>
             <div className='home-container'>
@@ -14,7 +21,18 @@ const Home = () => {
                 <img src="https://fsa.zobj.net/crop.php?r=Zzb9QGPeQZkVbgbpUTuBxHYEhcxJu4REz4_kOhZa9GFO-loLMt0IKwAr6Xmr5v7c8VmXWbTTaWE4Y4uJakOEV2AQvpgDT4yqcvX8KbBfjrUVljoBU-Bzg8a2nPFPHZdu3jzJP6D6QrUE_cZ8oJO33BM_RPjRYu-cBnQeELQBo62mVx7-2ioEOESxOQ7luyMV9_lYxl1dqAkUp5bu" alt="" />
             </div>
             <div>
-                <h3>Customer Review()</h3>
+                <h3>Customer Review({reviews.length})</h3>
+                <div className='review-section'>
+                    {
+                        reviews.slice(0, 3).map(review => <div key={review.id} className='home-review-section'>
+                            <img src={review.img} alt="" />
+                            <h5>{review.name}</h5>
+                            <p><small>Rating: {review.review}</small></p>
+                            <p>{(review.text).slice(0, 150)}...</p>
+                        </div>
+                        )}
+                </div>
+                <button >SHOW MORE</button>
             </div>
         </div>
     );

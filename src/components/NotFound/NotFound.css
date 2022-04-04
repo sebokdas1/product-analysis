@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
+
+.data-error {
+    display: flex;
+    justify-content: space-between;
+}
+
+.data-error img {
+    width: 600px;
+}
+
+.not-found h2 {
+    font-family: 'Rubik Glitch', cursive;
+}
+
+.not-found {
+    margin: 20px;
+}
+
+@media only screen and (max-width: 500px) {
+    .data-error {
+        display: block;
+    }
+}

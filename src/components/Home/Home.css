@@ -38,6 +38,29 @@
     cursor: pointer;
 }
 
+.review-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+}
+
+.home-review-section {
+    border: 1px solid lightblue;
+    padding-left: 8px;
+}
+
+/* .home-review-section img,
+h5,
+p {
+    margin-top: 0;
+} */
+
+.home-review-section img {
+    width: 70px;
+    border-radius: 50%;
+    text-align: center;
+}
+
 
 
 @media only screen and (max-width: 500px) {
