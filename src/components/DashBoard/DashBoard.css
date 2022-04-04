@@ -1,0 +1,11 @@
+.bar-line-chart {
+    grid-gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+@media only screen and (max-width: 500px) {
+    .bar-line-chart {
+        grid-template-columns: 1fr;
+    }
+}
