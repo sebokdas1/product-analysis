@@ -1,0 +1,13 @@
+.home {
+    margin-top: 0;
+}
+
+.home-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.home-container img {
+    width: 90vh;
+    height: 90vh;
+}

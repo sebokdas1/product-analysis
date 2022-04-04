@@ -1,0 +1,21 @@
+.navlink {
+    background-color: aquamarine;
+    padding: 20px 0;
+    margin-bottom: 0;
+}
+
+.navlink a {
+    text-decoration: none;
+    margin: 28px;
+    padding: 5px;
+    color: black;
+    font-weight: 700;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.navlink a:hover {
+    background-color: orange;
+    color: rgb(223, 220, 220);
+    text-decoration: underline;
+}

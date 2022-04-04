@@ -4,7 +4,7 @@ import './NotFound.css'
 const NotFound = () => {
     return (
         <div>
-
+            <h4>404</h4>
         </div>
     );
 };
