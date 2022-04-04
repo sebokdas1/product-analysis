@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Mark",
+        "review": 5,
+        "text": "I've been wanting an economy Les Paul type guitar that would serve as an all-around player for rehearsals and even gigs, but something that wouldn't the bank. I work at a local Music store that also does guitar repairs.",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Mark_Zuckerberg_F8_2019_Keynote_%2832830578717%29_%28cropped%29.jpg/800px-Mark_Zuckerberg_F8_2019_Keynote_%2832830578717%29_%28cropped%29.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Bill Gates",
+        "review": 4.9,
+        "text": "I've owned this guitar 2 months now and it is one of 4 electric guitars that I own. The guitar is an outstanding value and a real joy to play. I highly recommend it for any beginner or intermediate player and a great practice guitar for an advanced player who wants to limit wear on their professional series guitars.",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Bill_Gates_2017_%28cropped%29.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Elon Musk",
+        "review": 4.7,
+        "text": "This is a great deal for a very nice guitar . Sharp looking.,premium extras like coil splitting,locking tuners . Wide neck with good action. On par with some mid range Asian made axes",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/3/34/Elon_Musk_Royal_Society_%28crop2%29.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Arijit Singh",
+        "review": 5,
+        "text": "This guitar is a great budget single cutaway design, it plays really well for the price, the pickups are decent the coil splitting leads to some nice tones",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Arijit_5th_GiMA_Awards.jpg/220px-Arijit_5th_GiMA_Awards.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Atif Aslam",
+        "review": 4.9,
+        "text": "I bought this because it was cheap, and I wanted a guitar that I could try out different components on without worrying about messing it up. So far, I haven't changed anything because the guitar sounds great",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSw3ZCJX8lj-f776dMArfEge2FdIe5Z65_8lYEl9ptNcxNJmqml"
+    },
+    {
+        "id": 6,
+        "name": "Shreya Ghoshal",
+        "price": 5,
+        "text": "It feels great in the hand, has incredibly versatile tones thanks to coil splitting for both pickups and sounds great in any pickup configuration. Bottom line: if you record you can't tell if it's a Les Paul, PRS or any other high-end axe. They got this right! Peace.",
+        "img": "https://en.wikipedia.org/wiki/Shreya_Ghoshal#/media/File:Shreya_Ghoshal_at_Filmfare_Awards_South.jpg"
+    }
+]

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap');
+
 .home {
     margin-top: 0;
 }
@@ -5,9 +7,41 @@
 .home-container {
     display: grid;
     grid-template-columns: 2fr 1fr;
+    gap: 10px;
 }
 
 .home-container img {
-    width: 90vh;
-    height: 90vh;
+    width: 350px;
+}
+
+.heading {
+    text-align: center;
+    margin: 50px 10px;
+    padding: 25px;
+}
+
+.heading h3 {
+    font-size: 34px;
+    font-family: 'Beau Rivage', cursive;
+}
+
+.heading p {
+    text-align: justify;
+}
+
+.live-btn {
+    padding: 10px;
+    background-color: rgba(255, 0, 0, 0.774);
+    color: white;
+    font-weight: 600;
+    border: 0;
+    cursor: pointer;
+}
+
+
+
+@media only screen and (max-width: 500px) {
+    .home-container {
+        grid-template-columns: 1fr;
+    }
 }
