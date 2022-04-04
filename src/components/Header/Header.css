@@ -19,11 +19,11 @@
     text-decoration: none;
     margin: 28px;
     padding: 5px;
-    color: rgb(233, 230, 230);
+    color: red;
     font-weight: 700;
     border-radius: 5px;
     font-size: 20px;
-    background-color: rgba(255, 166, 0, 0.548);
+    border-bottom: 2px solid purple;
 }
 
 .normal-link:hover {

@@ -31,7 +31,7 @@ const Home = () => {
                         )}
                 </div>
                 <div className='link-review'>
-                    <Link to="/review">SHOW MORE</Link>
+                    <Link to="/review">See All Reviews</Link>
                 </div>
             </div>
         </div>

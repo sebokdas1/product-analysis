@@ -46,10 +46,8 @@ const Barchart = () => {
             <XAxis dataKey="month" />
             <YAxis />
             <Tooltip />
-            {/* <Legend /> */}
             <Bar dataKey="investment" fill="#8884d8" />
         </BarChart>
-
     );
 };
 
