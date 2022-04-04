@@ -57,15 +57,11 @@
     padding-top: 5px;
 }
 
-/* .home-review-section img,
-h5,
-p {
-    margin-top: 0;
-} */
+
 
 .home-review-section img {
     width: 70px;
-    border-radius: 50%;
+    border-radius: 20%;
     margin: auto;
 }
 
@@ -79,9 +75,6 @@ p {
 
 }
 
-/* .all-review-container a {
-    text-align: center;
-} */
 .all-review-container {
     padding-bottom: 20px;
 }
